@@ -13,15 +13,31 @@ With this being a project with starter code, the files and folders were already 
 
 ## Usage 
 
-Provide instructions and examples for use. Include screenshots as needed. 
+Open the webpage to learn more about Horiseon Social Solution Services, Inc.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
+The top half of the page provides a navigation bar with in-page links to sections below and an intro image:
 ```md
 ![Top half of the page](assets/images/Horiseon-top-section.png)
 ```
 
+The bottom half of the page provides sections with information on Horiseon's offerings and a side panel with supplemental information, as well as a footer:
+```md
+![Top half of the page](assets/images/Horiseon-bottom-section.png)
+```
+
 ## Tests and Known Issues
+
+Test 1:
+With the page open, click each link in the navigation bar at the top right of the screen and confirm the page jumps to the appropriate section.
+
+Test 2:
+Open the page in different browsers to confirm each element of the page renders as expected.
+
+Known Issue:
+In any browser, when the page is resized to a certain width, the side panel is wrapped underneath the main sections.
+```md
+![Side panel wrapped](assets/images/known-issue.png)
+```
 
 ## License
 
