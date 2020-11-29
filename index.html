@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<!--This code creates the Horiseon webpage, including a simple in-page navigation menu, sections for highlighted features, a sidebar for additional information, and a footer with copyright info.-->
+
+<!--The header block calls the css style sheet, defines the tab label and favicon in a browser-->
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Horiseon</title>
+    <link rel="icon" href="./assets/images/favicon.ico">
+</head>
+
+<!--Defines the bulk of the site: nav bar, intro graphic, feature explanations, side bar, and footer-->
+<body>
+    <header>
+        <!--Calls on header from style sheet as a container for the header and nav bar-->
+        <div class="header">
+            <h1>Hori<span class="seo">seo</span>n</h1>
+            
+            <!--Sets up in-page navigation links to sections below. Periods included for each alt as it gives screenreaders pause and makes for a better ux-->
+            <div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#search-engine-optimization" alt="Jump to Search Engine Optimization.">Search Engine Optimization</a>
+                        </li>
+                        <li>
+                            <a href="#online-reputation-management" alt="Jump to Online Reputation Management.">Online Reputation Management</a>
+                        </li>
+                        <li>
+                            <a href="#social-media-marketing" alt="Jump to Social Media Marketing.">Social Media Marketing</a>
+                        </li>
+                    </ul>
+                </nav> 
+            </div>   
+        </div>
+    </header>
+
+    <!--Outlines the bulk of the page-->
+    <main>
+        <article>
+
+            <!--Calls the intro graphic image from style sheet-->
+            <div class="intrographic"></div>
+
+            <!--Calls the content block for each of the sections below to sit in. Each section div is given an ID here that matches the one referenced in the nav menu above, and calls mainblocks for the section design-->
+            <div class="content">
+                <section>    
+                    <div id="search-engine-optimization" class="mainblocks">
+                            <img class="float-left" src="./assets/images/search-engine-optimization.jpg" alt="Cluttered desk with a Search Engine Optimization word cloud written on a notebook."/>
+                            <h2>Search Engine Optimization</h2>
+                            <p>
+                                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+                            </p>
+                    </div>
+                </section>
+
+                <section>
+                    <div id="online-reputation-management" class="mainblocks">
+                        <img class="float-right" src="./assets/images/online-reputation-management.jpg" alt="Laptop open to a chart showing the Reputation trending upward."/>
+                        <h2>Online Reputation Management</h2>
+                        <p>
+                            The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+                        </p>
+                    </div>
+                </section>
+
+                <section>
+                    <div id="social-media-marketing" class="mainblocks">
+                        <img class="float-left" src="./assets/images/social-media-marketing.jpg" alt="Group of professionals collaborating on a desk showing several social media icons."/>
+                        <h2>Social Media Marketing</h2>
+                        <p>
+                            Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+                        </p>
+                    </div>
+                </section>    
+            </div>
+                
+            <!--Calls benefits for the side panel with blurbs supplementing the information above. No alts were provided for the icons displayed here as they do not add value to the page aside from visual effects-->
+            <div class="benefits">
+                <aside>
+                    <div class="article">
+                        <h3>Lead Generation</h3>
+                        <img src="./assets/images/lead-generation.png" alt =""/>
+                        <p>
+                            Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+                        </p>
+                    </div>
+                </aside>
+                
+                <br><br>
+
+                <aside>
+                    <div class="article">
+                        <h3>Brand Awareness</h3>
+                        <img src="./assets/images/brand-awareness.png" alt=""/>
+                        <p>
+                            Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+                        </p>
+                    </div>
+                </aside>
+
+                <br><br>
+
+                <aside>
+                    <div class="article">
+                        <h3>Cost Management</h3>
+                        <img src="./assets/images/cost-management.png" alt=""/>
+                        <p>
+                            As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </article>
+    </main>    
+
+    <!--Calls footer to set up the footer panel at the bottom of the page-->
+    <footer>
+        <div class="footer">
+            <h2>Made with ️love by Horiseon</h2>
+            <p>
+                &copy; 2020 Horiseon Social Solution Services, Inc.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
