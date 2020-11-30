@@ -22,7 +22,7 @@ The top half of the page provides a navigation bar with in-page links to section
 
 The bottom half of the page provides sections with information on Horiseon's offerings and a side panel with supplemental information, as well as a footer:
 ```md
-![Top half of the page](assets/images/Horiseon-bottom-section.png)
+![Top half of the page](https://github.com/bmcleod12/horiseon-webpage/blob/main/assets/images/Horiseon-bottom-section.png)
 ```
 
 ## Tests and Known Issues
