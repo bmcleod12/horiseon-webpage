@@ -1,4 +1,5 @@
 # Horiseon Social Solution Services Webpage
+https://bmcleod12.github.io/horiseon-webpage/
 
 ## Description
 This Horiseon Social Solution Services webpage includes semantic HTML tags and in-page links. It started as a homework assignment to refactor code for accessibility standards.
@@ -13,7 +14,7 @@ With this being a project with starter code, the files and folders were already 
 
 ## Usage 
 
-Open the webpage to learn more about Horiseon Social Solution Services, Inc.
+Open the webpage to learn more about Horiseon Social Solution Services, Inc: https://bmcleod12.github.io/horiseon-webpage/
 
 The top half of the page provides a navigation bar with in-page links to sections below and an intro image:
 
