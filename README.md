@@ -16,14 +16,12 @@ With this being a project with starter code, the files and folders were already 
 Open the webpage to learn more about Horiseon Social Solution Services, Inc.
 
 The top half of the page provides a navigation bar with in-page links to sections below and an intro image:
-```md
-![Top half of the page](assets/images/Horiseon-top-section.png)
-```
+
+<img alt="Top half of the page" src="assets/images/Horiseon-top-section.png"/>
 
 The bottom half of the page provides sections with information on Horiseon's offerings and a side panel with supplemental information, as well as a footer:
-```md
-![Top half of the page](https://github.com/bmcleod12/horiseon-webpage/blob/main/assets/images/Horiseon-bottom-section.png)
-```
+
+<img alt="Bottom half of the page" src="assets/images/Horiseon-bottom-section.png"/>
 
 ## Tests and Known Issues
 
@@ -35,9 +33,8 @@ Open the page in different browsers to confirm each element of the page renders 
 
 Known Issue:
 In any browser, when the page is resized to a certain width, the side panel is wrapped underneath the main sections.
-```md
-![Side panel wrapped](assets/images/known-issue.png)
-```
+
+<img alt="Side panel wrapped" src="assets/images/known-issue.PNG"/>
 
 ## License
 
